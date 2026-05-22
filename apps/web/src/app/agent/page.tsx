@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AgentFeed } from "@/components/AgentFeed";
 import { BountyCard } from "@/components/BountyCard";
 import { api } from "@/lib/api";
-import type { Bounty } from "@/types";
+import type { Bounty } from "@/types/index";
 
 export default function AgentPage() {
   const [repoUrl, setRepoUrl]       = useState("https://github.com/demo-org/demo-repo");

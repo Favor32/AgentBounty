@@ -4,7 +4,7 @@ import Link from "next/link";
 import { formatDistanceToNow } from "date-fns";
 import clsx from "clsx";
 import { StatusBadge } from "./EscrowStatus";
-import type { Bounty } from "@/types";
+import type { Bounty } from "@/types/index";
 
 function truncateAddr(addr: string) {
   if (!addr || addr.length < 10) return addr;

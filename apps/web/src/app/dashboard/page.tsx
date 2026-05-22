@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import { BountyCard } from "@/components/BountyCard";
 import { AgentFeed } from "@/components/AgentFeed";
 import { api } from "@/lib/api";
-import type { Bounty, EscrowStatus } from "@/src/components";
+import type { Bounty, EscrowStatus } from "@/components";
 
 const FILTERS: { label: string; value: EscrowStatus | "ALL" }[] = [
   { label: "ALL",       value: "ALL" },

@@ -1,4 +1,4 @@
-import type { Bounty, ApiResponse } from "@/types";
+import type { Bounty, ApiResponse } from "@/types/index";
 
 const BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:3001";
 

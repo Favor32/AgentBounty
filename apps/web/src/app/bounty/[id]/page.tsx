@@ -8,7 +8,7 @@ import { useAccount } from "wagmi";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { StatusBadge, EscrowLifecycle } from "@/components/EscrowStatus";
 import { api } from "@/lib/api";
-import type { Bounty } from "@/types";
+import type { Bounty } from "@/types/index";
 
 function truncateAddr(addr: string) {
   if (!addr || addr.length < 10) return addr;
